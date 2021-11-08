@@ -1,0 +1,646 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    top: 0px;
+    left: 0px;
+    width: 100vw;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    font-family: 'Hind Siliguri', sans-serif;
+}
+
+.me,
+.right {
+    font-size: 10px;
+    color: red;
+    text-align: center;
+
+
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    z-index: 666;
+}
+
+.container {
+    position: relative;
+    max-width: 1200px;
+    padding: 20px;
+    margin: auto;
+}
+
+.logo {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.logo a {
+    text-decoration: none;
+}
+
+.logo h1 {
+    color: red;
+    font-size: 28px;
+    letter-spacing: 5px;
+    transition: 0.2s;
+    font-weight: 600;
+}
+
+.logo h1:hover {
+    color: red;
+    font-weight: bold;
+}
+
+.menu span {
+    font-size: 14px;
+    color: red;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: 0.8s;
+    cursor: pointer;
+    font-style: normal;
+}
+
+.menu span:hover {
+    font-weight: bolder;
+}
+
+.menu {
+    margin-top: 150px;
+    list-style-type: none;
+    display: inline;
+}
+
+.menu a {
+    font-size: 14px;
+    color: red;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: 0.8s;
+}
+
+.menu a:hover {
+    font-weight: bolder;
+
+}
+
+.menu .left {
+    float: left;
+}
+
+.menu .right {
+    float: right;
+}
+
+.auteur {
+    transform: rotate(-90deg);
+    position: absolute;
+    color: red;
+    letter-spacing: 5px;
+    font-size: 12px;
+    top: 260px;
+}
+
+.textright {
+    position: absolute;
+    right: 1vw;
+    top: 160px;
+    color: red;
+    letter-spacing: 5px;
+    font-size: 12px;
+}
+
+.griid {
+    position: relative;
+    width: 80%;
+    display: grid;
+    grid-column-gap: 10px;
+    grid-row-gap: 6px;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-flow: row;
+    margin: 10px auto;
+}
+
+.container .griid:first-child {
+    padding-top: 200px;
+}
+
+.titregal {
+    font-size: 15vw;
+    line-height: 12vw;
+    display: none;
+    z-index: 600;
+    position: absolute;
+    top: 60%;
+    width: 100%;
+    left: 0;
+    transform: translateY(-50%);
+    color: #000;
+    color: transparent;
+    pointer-events: none;
+    -webkit-text-stroke: .3vw #ff0000;
+    /* color: red; */
+    text-align: center;
+}
+
+.bigtitles {
+    font-size: 10vw;
+    line-height: 8vw;
+}
+
+.griid:hover .titregal {
+    display: block !important;
+}
+
+.titrepoet {
+    font-size: 10vw;
+    line-height: 20vw;
+    display: none;
+    z-index: 600;
+    position: fixed;
+    top: 50%;
+    width: 100%;
+    left: 0;
+    transform: translateY(-50%);
+    color: #000;
+    color: transparent;
+    pointer-events: none;
+    -webkit-text-stroke: .3vw #ff0000;
+    /* color: red; */
+    text-align: center;
+}
+
+.griid:hover .titrepoet {
+    display: block !important;
+}
+
+.griidone img {
+    width: 100%;
+}
+
+.griidtwo img {
+    width: 100%;
+
+}
+
+.griidthree img {
+    width: 100%;
+}
+
+.griidfour img {
+    width: 100%;
+}
+
+.griidfive img {
+    width: 100%;
+}
+
+.griidsix img {
+    width: 100%;
+}
+
+.griidseven img {
+    width: 100%;
+}
+
+.griideight img {
+    width: 100%;
+}
+
+.griidnine img {
+    width: 100%;
+}
+
+.griidten img {
+    width: 100%;
+}
+
+.griideleven img {
+    width: 100%;
+}
+
+.griidtwelve img {
+    width: 100%;
+}
+
+.griidone {
+    width: 90%;
+    justify-self: start;
+}
+
+.griidtwo {
+    width: 60%;
+    justify-self: start;
+
+}
+
+.griidthree {
+    width: 70%;
+    justify-self: end;
+    align-self: start;
+}
+
+.griidfour {
+    width: 100%;
+    justify-self: start;
+}
+
+.griidfive {
+    width: 80%;
+    justify-self: start;
+}
+
+.griidsix {
+    width: 60%;
+    justify-self: start;
+
+}
+
+.griidseven {
+    width: 70%;
+    justify-self: end;
+    align-self: end;
+}
+
+.griideight {
+    width: 50%;
+    justify-self: end;
+    align-self: end;
+}
+
+.griidnine {
+    width: 80%;
+    justify-self: end;
+    align-self: start;
+}
+
+.griidten {
+    width: 80%;
+    justify-self: start;
+    align-self: end;
+}
+
+.griideleven {
+    width: 70%;
+    justify-self: end;
+    align-self: end;
+}
+
+.griidtwelve {
+    width: 50%;
+    justify-self: end;
+    align-self: end;
+}
+
+.space {
+    width: 100vw;
+    height: 30px;
+}
+
+.croix {
+    color: red;
+    font-size: 30px;
+    font-weight: 600;
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 5vh;
+
+}
+
+.croix a {
+    text-decoration: none;
+}
+
+.croix:hover {
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.vid {
+    margin-top: 200px;
+}
+
+.bio {
+    text-align: left;
+    width: 40vw;
+    left: 50%;
+    margin: 200px 0px;
+    transform: translateX(-50%);
+    position: relative;
+    color: red;
+    font-weight: 800;
+    font-size: 20px !important;
+    letter-spacing: 0.4px;
+}
+
+.works img {
+    width: 100%;
+}
+
+.works {
+    margin-top: 200px;
+    width: 900px;
+    margin: auto;
+    color: red;
+
+}
+
+.works p {
+    font-size: 12px;
+
+}
+
+.works h1 {
+    text-transform: uppercase;
+
+
+}
+
+.works p {
+    text-align: center;
+
+}
+
+.works p a {
+    color: aqua;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.exh {
+    font-size: 12px;
+}
+
+.info {
+    margin-top: 200px;
+}
+
+.info img {
+    margin: auto;
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
+    position: relative;
+    margin-bottom: 80px;
+
+}
+
+.info p {
+    text-align: center;
+    color: red;
+    font-weight: 600;
+    font-size: 20px;
+
+}
+
+.poem {
+    margin-top: 200px;
+    text-align: center;
+}
+
+.poem p {
+    width: 600px;
+    margin: 0px auto 320px;
+}
+
+.poem h2 {
+    margin: 50px auto;
+}
+
+.poem h3 {
+    margin: 50px auto;
+    text-decoration: underline;
+    font-weight: 200;
+    text-align: left;
+    width: 600px;
+}
+
+span {
+    font-size: 10px;
+    font-style: italic;
+    text-align: center;
+}
+
+.left {
+    text-align: left;
+}
+
+.rightz {
+    text-align: right;
+}
+
+.lettrine {
+    font-size: 26px;
+    font-style: normal;
+}
+
+.barre {
+    font-size: 15px;
+    font-style: normal;
+    text-decoration: line-through;
+}
+
+.grasse {
+    font-weight: 600;
+}
+
+.petit {
+    font-size: 13px;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Hind+Siliguri');
+
+.antic {
+    font-family: 'Antic Slab', serif;
+}
+
+.karma {
+    font-family: 'Karma', serif;
+
+}
+
+/*------- MODAL ------*/
+
+.overlay {
+    height: 0%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: white;
+    overflow-y: hidden;
+    transition: 0.5s;
+}
+
+.overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: red;
+    display: block;
+    transition: 0.3s;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 2px;
+}
+
+.overlay a:hover,
+.overlay a:focus {
+    color: red;
+    text-decoration: line-through;
+}
+
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+    .overlay {
+        overflow-y: auto;
+    }
+
+    .overlay a {
+        font-size: 20px
+    }
+
+    .overlay .closebtn {
+        font-size: 40px;
+        top: 15px;
+        right: 35px;
+    }
+}
+
+/*------- SCREEN ------*/
+
+/*-------------------- Screenz  media-------------------*/
+@media screen and (min-width: 320px) and (max-width: 620px) {
+
+    .logo {
+        text-align: center;
+        position: relative;
+        margin-bottom: 50px;
+    }
+
+    .logo h1 {
+        color: red;
+        font-size: 18px;
+        letter-spacing: 5px;
+        transition: 0.2s;
+        font-weight: 600;
+    }
+
+    .logo h1:hover {
+        color: red;
+        font-weight: bold;
+    }
+
+    .menu span {
+        font-size: 14px;
+        color: red;
+        text-transform: uppercase;
+        text-decoration: none;
+        transition: 0.8s;
+        cursor: pointer;
+        font-style: normal;
+    }
+
+    .menu span:hover {
+        font-weight: bolder;
+    }
+
+    .menu {
+        margin-top: 150px;
+        list-style-type: none;
+        display: inline;
+    }
+
+    .menu a {
+        font-size: 14px;
+        color: red;
+        text-transform: uppercase;
+        text-decoration: none;
+        transition: 0.8s;
+    }
+
+    .textright {
+        display: none;
+    }
+
+    .auteur {
+        display: none;
+    }
+
+    .titregal {
+        display: unset;
+        font-size: 15vw;
+        line-height: 12vw;
+        z-index: 600;
+        position: absolute;
+        top: 75%;
+        width: 100%;
+        left: 0%;
+        transform: translateY(-50%);
+        color: #000;
+        color: transparent;
+        pointer-events: none;
+        -webkit-text-stroke: .3vw #ff0000;
+        /* color: red; */
+        text-align: center;
+    }
+    
+    .griid {
+    position: relative;
+    width: 100%;
+    display: grid;
+    grid-column-gap: 10px;
+    grid-row-gap: 6px;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-flow: row;
+    margin: 10px auto;
+}
+
+}
+
+/*-------------------- Screenz  media-------------------*/
+@media screen and (min-width: 621px) and (max-width: 699px) {}
+
+/*-------------------- Screenz  media-------------------*/
+@media screen and (min-width: 700px) and (max-width: 780px) {}
+
+/*-------------------- Screenz  media-------------------*/
+@media screen and (min-width: 781px) and (max-width: 879px) {}
+
+/*-------------------- Screenz  media-------------------*/
+@media screen and (min-width: 880px) and (max-width: 999px) {}
+
+/*-------------------- Screenz  media-------------------*/
+@media screen and (min-width: 1000px) and (max-width: 1100px) {}
+
+/*-------------------- Screenz  media-------------------*/
+@media screen and (min-width: 1101px) and (max-width: 1200px) {}
+
+/*-------------------- Screenz  media-------------------*/
+@media screen and (min-width: 1201px) and (max-width: 1300px) {}
+
+/*-------------------- Screenz  media-------------------*/
+@media screen and (min-width: 1301px) and (max-width: 1400px) {}
+
+/*-------------------- Screenz  media-------------------*/
+@media screen and (min-width: 1401px) and (max-width: 1500px) {}
